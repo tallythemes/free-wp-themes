@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TallyTheme\n"
-"POT-Creation-Date: 2014-10-27 13:36+0600\n"
-"PO-Revision-Date: 2014-10-27 13:36+0600\n"
+"POT-Creation-Date: 2015-01-03 19:08+0600\n"
+"PO-Revision-Date: 2015-01-03 19:09+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -15,32 +15,6 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../functions.php:109
-msgid "Install Required Plugins"
-msgstr ""
-
-#: ../functions.php:110
-msgid "Install Plugins"
-msgstr ""
-
-#: ../functions.php:111
-#, php-format
-msgid "Installing Plugin: %s"
-msgstr ""
-
-#: ../functions.php:112
-msgid "Something went wrong with the plugin API."
-msgstr ""
-
-#: ../functions.php:123
-msgid "Return to Required Plugins Installer"
-msgstr ""
-
-#: ../functions.php:124
-msgid "Plugin activated successfully."
-msgstr ""
-
-#: ../functions.php:125
-#, php-format
-msgid "All plugins installed and activated successfully. %s"
+#: ../functions.php:43 ../functions.php:44
+msgid "Search"
 msgstr ""
