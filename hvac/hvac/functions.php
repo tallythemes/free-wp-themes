@@ -4,7 +4,7 @@
 add_action( 'after_setup_theme', 'tally_child_load_before_parant_theme', 2);
 function tally_child_load_before_parant_theme(){
 	
-	define('TALLY_THEME_STORE_URL', 'http://tallythemes.com/');
+	define('TALLY_THEME_STORE_URL', 'http://tallythemes.com/product/hvac-wordpress-theme/');
 	define('TK_THEME_NAME', 'HVAC');
 	define('TALLY_THEME_NAME', 'HVAC');
 	
@@ -18,17 +18,10 @@ function tally_child_load_before_parant_theme(){
 --------------------------------------------------------------------------*/
 add_action( 'after_setup_theme', 'tally_child_load_after_parant_theme', 4);
 function tally_child_load_after_parant_theme(){
-
-	add_filter( 'tally5f0e7255e6ce7e2387ddede25e963d49', '__return_true' );
-	
-	add_filter( 'bbpresstallyc_custom_css', '__return_true');
-	add_filter( 'buddypresstallyc_custom_css', '__return_true');
-	add_filter( 'wootallyc_custom_css', '__return_true');
 	
 	add_filter( 'tally_recommended_plugins', 'tally_child_recommended_plugins');
 	
-	//echo tally_get_serialize_option_data();
-	//echo tally_check_see();
+	add_filter( 'tally_impoter_notice_display', '__return_true');
 }
 
 

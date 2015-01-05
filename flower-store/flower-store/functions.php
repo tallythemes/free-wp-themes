@@ -4,7 +4,7 @@
 add_action( 'after_setup_theme', 'tally_child_load_before_parant_theme', 2);
 function tally_child_load_before_parant_theme(){
 	
-	define('TALLY_THEME_STORE_URL', 'http://tallythemes.com/');
+	define('TALLY_THEME_STORE_URL', 'http://tallythemes.com/product/flower-store-wordpress-theme/');
 	define('TK_THEME_NAME', 'Flower Store');
 	define('TALLY_THEME_NAME', 'Flower Store');
 	
@@ -18,18 +18,12 @@ function tally_child_load_before_parant_theme(){
 --------------------------------------------------------------------------*/
 add_action( 'after_setup_theme', 'tally_child_load_after_parant_theme', 4);
 function tally_child_load_after_parant_theme(){
-
-	add_filter( 'tally3d79d09ac92eaa4338aadef35ec1be5e', '__return_true' );
-	
-	add_filter( 'bbpresstallyc_custom_css', '__return_true');
-	add_filter( 'buddypresstallyc_custom_css', '__return_true');
-	add_filter( 'wootallyc_custom_css', '__return_true');
 	
 	add_filter( 'tally_recommended_plugins', 'tally_child_recommended_plugins');
 	
 	add_action('tally_header', 'tally_child_do_header_serch_with_icon', 9);
-	//echo tally_get_serialize_option_data();
-	//echo tally_check_see();
+	
+	add_filter( 'tally_impoter_notice_display', '__return_true');
 }
 
 

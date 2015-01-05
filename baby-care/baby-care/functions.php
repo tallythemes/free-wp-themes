@@ -4,7 +4,7 @@
 add_action( 'after_setup_theme', 'tally_child_load_before_parant_theme', 2);
 function tally_child_load_before_parant_theme(){
 	
-	define('TALLY_THEME_STORE_URL', 'http://tallythemes.com/');
+	define('TALLY_THEME_STORE_URL', 'http://tallythemes.com/product/baby-care-wordpress-theme/');
 	define('TK_THEME_NAME', 'Baby Care');
 	define('TALLY_THEME_NAME', 'Baby Care');
 	
@@ -19,15 +19,8 @@ function tally_child_load_before_parant_theme(){
 add_action( 'after_setup_theme', 'tally_child_load_after_parant_theme', 4);
 function tally_child_load_after_parant_theme(){
 
-	add_filter( 'tally01e76ed9ec25edd591b59ff87e8b3e4c', '__return_true' );
-	
-	add_filter( 'bbpresstallyc_custom_css', '__return_true');
-	add_filter( 'buddypresstallyc_custom_css', '__return_true');
-	add_filter( 'wootallyc_custom_css', '__return_true');
-	
 	add_filter( 'tally_recommended_plugins', 'tally_child_recommended_plugins');
 	
-		
 	add_action('tally_header', 'tally_child_do_header_info_text', 9);
 	add_action('tally_header', 'tally_child_do_header_serch_with_icon', 11);
 	add_action('tally_header', 'tally_child_do_header_menu', 16);
@@ -36,8 +29,7 @@ function tally_child_load_after_parant_theme(){
 	remove_action('tally_header', 'tally_do_header_menu', 10);
 	remove_action('tally_is_topbar', 'tally_do_topbar_info_text', 10);
 	
-	//echo tally_get_serialize_option_data();
-	//echo tally_check_see();
+	add_filter( 'tally_impoter_notice_display', '__return_true');
 }
 
 
