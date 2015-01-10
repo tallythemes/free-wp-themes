@@ -7,6 +7,11 @@ function tally_child_load_before_parant_theme(){
 	define('TALLY_THEME_STORE_URL', 'http://tallythemes.com/product/agencies-wordpress-theme/');
 	define('TK_THEME_NAME', 'Agencies');
 	define('TALLY_THEME_NAME', 'Agencies');
+	define('TALLY_THEME_DEMO_URL', esc_url('http://tallythemes.com/preview/agencies-wordpress-theme-preview/'));
+	define('TALLY_THEME_DOC_URL', esc_url('http://tallythemes.com/doc-item/agencies-wordpress-theme-documentation/'));
+	define('TALLY_THEME_SUPPORT_URL', esc_url('http://tallythemes.com/support/forum/wordpress-themes-support/agencies-wordpress-theme-support/'));
+	define('TALLY_THEME_ORG_URL', '');
+	define('TALLY_THEME_MORE_URL', esc_url('http://tallythemes.com/product-category/wordpress-themes/'));
 	
 	if ( ! isset( $content_width ) ) $content_width = 1170;
 	load_theme_textdomain( 'tally_child_textdomain', get_stylesheet_directory().'/languages' );
