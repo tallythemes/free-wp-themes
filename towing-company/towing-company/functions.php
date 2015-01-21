@@ -7,6 +7,11 @@ function tally_child_load_before_parant_theme(){
 	define('TALLY_THEME_STORE_URL', 'http://tallythemes.com/product/towing-company-wordpress-theme/');
 	define('TK_THEME_NAME', 'Towing Company');
 	define('TALLY_THEME_NAME', 'Towing Company');
+	define('TALLY_THEME_DEMO_URL', esc_url('http://tallythemes.com/preview/towing-company-wordpress-theme-preview/'));
+	define('TALLY_THEME_DOC_URL', esc_url('http://tallythemes.com/doc-item/towing-company-wordpress-theme-documentation/'));
+	define('TALLY_THEME_SUPPORT_URL', esc_url('http://tallythemes.com/support/forum/wordpress-themes-support/towing-company-wordpress-theme-support/'));
+	define('TALLY_THEME_ORG_URL', '');
+	define('TALLY_THEME_MORE_URL', esc_url('http://tallythemes.com/product-category/wordpress-themes/'));
 	
 	if ( ! isset( $content_width ) ) $content_width = 1170;
 	load_theme_textdomain( 'tally_child_textdomain', get_stylesheet_directory().'/languages' );
@@ -73,46 +78,6 @@ function tally_child_recommended_plugins($plugins){
 		'name'      => 'TallyKit',
 		'slug'      => 'tallykit',
 		'required'  => true,
-	);
-	$plugins[] = array(
-		'name'      => 'WP Retina 2x',
-		'slug'      => 'wp-retina-2x',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'WooCommerce',
-		'slug'      => 'woocommerce',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'Woocommerce Connect For Tally Framework',
-		'slug'      => 'woocommerce-connect-for-tally-framework',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'WordPress SEO by Yoast',
-		'slug'      => 'wordpress-seo',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'bbPress',
-		'slug'      => 'bbpress',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'bbPress Connect For Tally Framework',
-		'slug'      => 'bbpress-connect-for-tally-framework',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'BuddyPress',
-		'slug'      => 'buddypress',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'BuddyPress Connect For Tally Framework',
-		'slug'      => 'buddypress-connect-for-tally-framework',
-		'required'  => false,
 	);
 	
 	return $plugins;

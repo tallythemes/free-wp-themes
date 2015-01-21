@@ -1,6 +1,6 @@
 /*
 Theme Name: Flower Store
-Theme URI: http://tallythemes.com/product/flower-store-wordpress-theme/
+Theme URI: http://tallythemes.com/
 Author: TallyThemes
 Author URI:http://tallythemes.com/
 Description: Flower Store Wordpress Premium Theme
@@ -296,7 +296,10 @@ Checked with:	3.2		(tallykit)
 	
 	#main .wp-caption, 
 	#main .wp-caption .wp-caption-text, 
-	#main .gallery-caption{ background-color: ; } 
+	#main .gallery-caption{ background-color: ; }
+	
+	
+	.page-template-front-page-template-php #main #main-inner { width: 100%; max-width: 100%; margin-top:0px; padding-top:0px; } 
 	
 	
 	

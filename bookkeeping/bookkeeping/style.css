@@ -231,7 +231,7 @@ Checked with:	2.4		(tallykit)
 		margin-left:0;
 		border-radius: 0px;
 		border-bottom:solid 1px;
-		color:#000 !important;
+		/*color:#000 !important;*/
 	} /*edit here*/
 	
 	#nav div ul li ul li a:hover{ text-decoration:none; } /*edit here*/

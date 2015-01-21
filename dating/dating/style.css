@@ -54,7 +54,7 @@ Checked with:	3.2		(tallykit)
 	#header #header-inner{ margin:0 auto; max-width:1170px; }
 	/* #header .hheaight{ height:70px; }*/
 	
-	#header .logo_area{  float:left;  padding-right:22px; position:relative; margin-top: -51px; }
+	#header .logo_area{  float:left;  padding-right:22px; position:relative; margin-top: -51px; width: 280px; }
 	#header .logo_area:after{ content:""; display:inline-block; clear:both; }
 	
 	#header .menu_area{ float:right; }
