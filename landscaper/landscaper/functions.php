@@ -36,8 +36,7 @@ function tally_child_recommended_plugins($plugins){
 	$plugins[] = array(
 		'name'      => 'TallyKit',
 		'slug'      => 'tallykit',
-		'required'  => true,
-		'force_activation'   => true,
+		'required'  => false,
 	);
 	
 	return $plugins;

@@ -76,46 +76,11 @@ function tally_child_recommended_plugins($plugins){
 	$plugins[] = array(
 		'name'      => 'TallyKit',
 		'slug'      => 'tallykit',
-		'required'  => true,
+		'required'  => false,
 	);
 	$plugins[] = array(
 		'name'      => 'WP Retina 2x',
 		'slug'      => 'wp-retina-2x',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'WooCommerce',
-		'slug'      => 'woocommerce',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'Woocommerce Connect For Tally Framework',
-		'slug'      => 'woocommerce-connect-for-tally-framework',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'WordPress SEO by Yoast',
-		'slug'      => 'wordpress-seo',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'bbPress',
-		'slug'      => 'bbpress',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'bbPress Connect For Tally Framework',
-		'slug'      => 'bbpress-connect-for-tally-framework',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'BuddyPress',
-		'slug'      => 'buddypress',
-		'required'  => false,
-	);
-	$plugins[] = array(
-		'name'      => 'BuddyPress Connect For Tally Framework',
-		'slug'      => 'buddypress-connect-for-tally-framework',
 		'required'  => false,
 	);
 	
